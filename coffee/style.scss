@@ -1,0 +1,33 @@
+@import 'jeet/index';
+@import url(http://fonts.googleapis.com/css?family=Anton|Pacifico);
+@import url(http://weloveiconfonts.com/api/?family=maki);
+
+*{
+	padding: 0; margin: 0;
+}
+
+span{
+	font-family: 'Pacifico', cursive;
+}
+
+[class*="maki-"]:before {
+  font-family: 'maki', sans-serif;
+}
+
+@media screen and (min-width: 0em){
+	article{
+		background-color: red;
+		h1 {
+		  font-family: 'Anton', sans-serif;
+		  font-size: 5em;
+		  line-height: 1;
+		}
+		h2{
+			font-family: 'Anton', sans-serif;
+			font-size: 4em;
+			text-align: right;
+			line-height: 1;
+		}
+	}
+
+}

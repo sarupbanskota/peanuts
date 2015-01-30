@@ -1,10 +1,13 @@
-@import 'jeet/index';
+//@import 'jeet/index';
 @import url(http://fonts.googleapis.com/css?family=Anton|Pacifico);
 @import url(http://weloveiconfonts.com/api/?family=maki);
 
 *{
-	padding: 0; margin: 0;
+	padding: 0; margin: 0; 
 }
+
+$dark: #3b3b3b;
+$light: #f1f1f1;
 
 span{
 	font-family: 'Pacifico', cursive;
@@ -15,19 +18,43 @@ span{
 }
 
 @media screen and (min-width: 0em){
+
+	nav{
+		background-color: $light;
+		font-size: 2em;
+		font-family: 'Anton', sans-serif;
+		text-align: right;
+		padding: 2em 0;
+		a{
+			text-decoration: underline;
+			margin-right: 1em;
+			color: $dark;
+		}
+	}
 	article{
+		padding: 0.75em 0em;
 		background-color: red;
 		h1 {
 		  font-family: 'Anton', sans-serif;
 		  font-size: 5em;
 		  line-height: 1;
 		}
-		h2{
-			font-family: 'Anton', sans-serif;
-			font-size: 4em;
-			text-align: right;
-			line-height: 1;
-		}
 	}
 
+}
+
+@media screen and (min-width: 40em){
+	nav{
+		position: fixed;
+		padding: 1em;
+		font-size: 1.5em;
+		margin: 3em 3em;
+		a{
+			display: block;
+		}
+	}
+	article{
+		padding: 10em 20em;
+
+	}
 }

@@ -39,6 +39,20 @@ span{
 		  font-size: 5em;
 		  line-height: 1;
 		}
+
+		section{
+			padding: 0.5em 0.5em;
+			font-family: 'Anton', sans-serif;
+			background-color: $light;
+			font-size: 3em;
+			line-height: 1;
+			text-align: right;
+			ul{
+				font-size: 0.5em;
+				color: $dark;
+				list-style-type: none;
+			}
+		}
 	}
 
 }

@@ -28,7 +28,18 @@ span {
     article h1 {
       font-family: 'Anton', sans-serif;
       font-size: 5em;
-      line-height: 1; } }
+      line-height: 1; }
+    article section {
+      padding: 0.5em 0.5em;
+      font-family: 'Anton', sans-serif;
+      background-color: #f1f1f1;
+      font-size: 3em;
+      line-height: 1;
+      text-align: right; }
+      article section ul {
+        font-size: 0.5em;
+        color: #3b3b3b;
+        list-style-type: none; } }
 @media screen and (min-width: 40em) {
   nav {
     position: fixed;

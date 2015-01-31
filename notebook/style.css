@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300|Nunito);
+* {
+  padding: 0;
+  margin: 0; }
+
+span {
+  font-family: 'Pacifico', cursive; }
+
+[class*="maki-"]:before {
+  font-family: 'maki', sans-serif; }
+
+@media screen and (min-width: 0em) {
+  header {
+    text-align: right;
+    padding: 0.5em;
+    background-color: #236267;
+    font-family: 'Nunito', sans-serif; }
+    header a {
+      color: #f1f1f1;
+      text-decoration: none;
+      font-size: 2em; }
+
+  nav {
+    text-align: center;
+    background-color: #f1f1f1;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    padding: 0.5em 0; }
+    nav a {
+      padding: 0 0.5em;
+      text-decoration: none;
+      color: #236267; }
+
+  article section {
+    font-family: 'Quicksand', sans-serif;
+    padding: 2em;
+    background-color: #236267;
+    line-height: 1;
+    text-align: left;
+    border-top: dashed 0.3em #f1f1f1; }
+    article section h1 {
+      font-family: 'Nunito', sans-serif;
+      font-size: 2em;
+      line-height: 1.2;
+      color: #68979b; }
+    article section ul {
+      color: #f1f1f1;
+      font-size: 1.5em;
+      color: #236267;
+      list-style-type: none; }
+      article section ul li {
+        color: #f1f1f1; }
+  article section.extend {
+    background-color: #f1f1f1; }
+    article section.extend h1 {
+      color: #236267;
+      padding-top: 1em;
+      font-size: 1.5em; }
+    article section.extend ul li {
+      color: #68979b; } }
+@media screen and (min-width: 40em) {
+  nav {
+    position: fixed;
+    padding: 1em;
+    font-size: 1.5em;
+    margin: 3em 3em; }
+    nav a {
+      display: block; }
+
+  article {
+    padding: 10em 20em; } }
+
+/*# sourceMappingURL=style.css.map */

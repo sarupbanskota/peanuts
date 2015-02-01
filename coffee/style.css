@@ -1,14 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Anton|Pacifico);
-@import url(http://weloveiconfonts.com/api/?family=maki);
 * {
   padding: 0;
   margin: 0; }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 span {
   font-family: 'Pacifico', cursive; }
-
-[class*="maki-"]:before {
-  font-family: 'maki', sans-serif; }
 
 @media screen and (min-width: 0em) {
   nav {

@@ -5,6 +5,12 @@
 	padding: 0; margin: 0; 
 }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
 $dark: #236267;
 $light: #f1f1f1;
 
@@ -100,6 +106,12 @@ span{
 }
 
 @media screen and (min-width: 40em){
+
+	header{
+		a{
+			margin-right: 3em;
+		}
+	}
 	nav{
 		position: fixed;
 		padding: 1em;

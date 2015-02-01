@@ -4,6 +4,11 @@
   padding: 0;
   margin: 0; }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 span {
   font-family: 'Pacifico', cursive; }
 
@@ -74,6 +79,9 @@ span {
       article section.extend ul li {
         color: #68979b; } }
 @media screen and (min-width: 40em) {
+  header a {
+    margin-right: 3em; }
+
   nav {
     position: fixed;
     padding: 1em;

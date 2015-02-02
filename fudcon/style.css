@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300|Comfortaa:700);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+* {
+  padding: 0;
+  margin: 0; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif; }
+
+@media screen and (min-width: 0em) {
+  header {
+    position: fixed;
+    text-align: right;
+    font-family: 'Comfortaa', cursive;
+    background-color: white;
+    width: 100%;
+    padding: 1em; }
+    header a {
+      color: #3c6eb4;
+      font-size: 1em;
+      text-decoration: none; }
+
+  footer {
+    background-color: #f1f1f1;
+    font-size: 1em;
+    color: #3c6eb4;
+    font-family: 'Quicksand', sans-serif; }
+    footer h3 {
+      font-size: 1.3em; }
+
+  article section {
+    padding: 0 2em;
+    background-color: #294172; }
+    article section h1 {
+      font-family: 'Comfortaa', cursive;
+      font-size: 2em;
+      color: #f1f1f1;
+      padding: 1em 0; }
+    article section div.session {
+      margin: 0.1em 0;
+      background-color: #3c6eb4;
+      font-family: 'Quicksand', sans-serif;
+      padding: 1em;
+      color: #f1f1f1; }
+      article section div.session h5 {
+        font-size: 1em; }
+      article section div.session h3 {
+        padding: 1em 0;
+        font-size: 1.2em; }
+      article section div.session p {
+        padding: 1em 0; }
+  article section.landing {
+    background-image: url(images/pune-mobile.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh; }
+    article section.landing img {
+      margin: auto;
+      padding: 6em  0;
+      padding-bottom: 3em;
+      display: block;
+      width: 80%;
+      height: auto; }
+    article section.landing p {
+      font-size: 1.3em;
+      text-align: center;
+      padding: 1em; }
+      article section.landing p a.pointer {
+        padding: 1em 1.75em;
+        border: solid 0.2em #294172;
+        color: #294172;
+        font-family: 'Quicksand', sans-serif; }
+      article section.landing p span {
+        padding: 5em;
+        color: #294172; } }
+
+/*# sourceMappingURL=style.css.map */

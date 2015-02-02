@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300|Comfortaa:700);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+*{
+	padding: 0; margin: 0; 
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+$dark: #236267;
+$light: #f1f1f1;
+$light_fedora: #3c6eb4;
+$dark_fedora: #294172;
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+@media screen and (min-width: 0em){
+	header{
+		position: fixed;
+		text-align: right;
+		font-family: 'Comfortaa', cursive;
+		background-color: white;
+		width: 100%;
+		padding: 1em;
+		a{
+			color: $light_fedora;
+			font-size: 1em;
+			text-decoration: none;
+		}
+	}
+
+	footer{
+		background-color: $light;
+		font-size: 1em;
+		color: $light_fedora;
+		font-family: 'Quicksand', sans-serif;
+		h3{
+			font-size: 1.3em;
+		}
+	}
+
+	article{
+		section{
+			padding: 0 2em;
+			background-color: $dark_fedora;
+			h1{
+				font-family: 'Comfortaa', cursive;
+				font-size: 2em;
+				color: $light;
+				padding: 1em 0;
+			}
+			div.session{
+				margin: 0.1em 0;
+				background-color: $light_fedora;
+				font-family: 'Quicksand', sans-serif;
+				padding: 1em;
+				color: $light;
+				h5{ font-size: 1em; }
+				h3{ padding: 1em 0; font-size: 1.2em; }
+				p{ padding: 1em 0;}
+			}
+		}
+
+		section.landing{
+			background-image: url(images/pune-mobile.png);
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			height: 100vh;
+			img{
+				margin: auto;
+				padding: 6em  0;
+				padding-bottom: 3em;
+				display: block;
+				width: 80%;
+				height: auto;
+			}
+			p{
+				font-size: 1.3em;
+				text-align: center;
+				padding: 1em;
+				a.pointer{
+					padding: 1em 1.75em;
+					border: solid 0.2em $dark_fedora;
+					color: $dark_fedora;
+					font-family: 'Quicksand', sans-serif;
+				}
+				span{
+					padding: 5em;
+					color: $dark_fedora;
+				}
+			}
+		}
+	}
+	
+}
+

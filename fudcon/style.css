@@ -30,9 +30,13 @@
     background-color: #f1f1f1;
     font-size: 1em;
     color: #3c6eb4;
-    font-family: 'Quicksand', sans-serif; }
-    footer h3 {
-      font-size: 1.3em; }
+    font-family: 'Quicksand', sans-serif;
+    padding: 2em; }
+    footer a {
+      text-decoration: none;
+      color: #3c6eb4;
+      border-bottom: dotted 0.1em #294172;
+      line-height: 1; }
 
   article section {
     padding: 0 2em;
@@ -41,7 +45,7 @@
       font-family: 'Comfortaa', cursive;
       font-size: 2em;
       color: #f1f1f1;
-      padding: 1em 0; }
+      padding: 2em 0; }
     article section div.session {
       margin: 0.1em 0;
       background-color: #3c6eb4;
@@ -74,6 +78,7 @@
       text-align: center;
       padding: 1em; }
       article section.landing p a.pointer {
+        text-decoration: none;
         padding: 1em 1.75em;
         border: solid 0.2em #294172;
         color: #294172;

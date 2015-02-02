@@ -41,8 +41,12 @@ $dark_fedora: #294172;
 		font-size: 1em;
 		color: $light_fedora;
 		font-family: 'Quicksand', sans-serif;
-		h3{
-			font-size: 1.3em;
+		padding: 2em;
+		a{
+			text-decoration: none;
+			color: $light_fedora;
+			border-bottom: dotted 0.1em $dark_fedora;
+			line-height: 1;
 		}
 	}
 
@@ -54,7 +58,7 @@ $dark_fedora: #294172;
 				font-family: 'Comfortaa', cursive;
 				font-size: 2em;
 				color: $light;
-				padding: 1em 0;
+				padding: 2em 0;
 			}
 			div.session{
 				margin: 0.1em 0;
@@ -88,6 +92,7 @@ $dark_fedora: #294172;
 				text-align: center;
 				padding: 1em;
 				a.pointer{
+					text-decoration: none;
 					padding: 1em 1.75em;
 					border: solid 0.2em $dark_fedora;
 					color: $dark_fedora;

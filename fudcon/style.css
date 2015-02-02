@@ -66,25 +66,48 @@
     background-attachment: fixed;
     background-size: cover;
     height: 100vh; }
-    article section.landing img {
-      margin: auto;
-      padding: 6em  0;
-      padding-bottom: 3em;
-      display: block;
-      width: 80%;
-      height: auto; }
     article section.landing p {
+      padding-top: 3em;
       font-size: 1.3em;
-      text-align: center;
-      padding: 1em; }
+      text-align: center; }
+      article section.landing p img {
+        margin: auto;
+        display: block;
+        width: 100%;
+        height: auto; }
       article section.landing p a.pointer {
         text-decoration: none;
-        padding: 1em 1.75em;
+        padding: 1.2em 1.75em;
         border: solid 0.2em #294172;
         color: #294172;
         font-family: 'Quicksand', sans-serif; }
       article section.landing p span {
-        padding: 5em;
         color: #294172; } }
+@media screen and (min-width: 35em) {
+  article section.landing p {
+    padding-top: 2em; }
+    article section.landing p img {
+      width: 80%; } }
+@media screen and (min-width: 40em) {
+  article section.landing p {
+    padding-top: 2em; }
+    article section.landing p img {
+      width: 70%; }
+  article section {
+    padding: 0 5em; } }
+@media screen and (min-width: 60em) {
+  article section.landing p {
+    padding-top: 2em; }
+    article section.landing p img {
+      width: 60%; }
+  article section {
+    padding: 0 8em; } }
+@media screen and (min-width: 80em) {
+  article section.landing p {
+    padding-top: 2em; }
+    article section.landing p img {
+      width: 50%; }
+  article section {
+    padding: 0 12em; } }
 
 /*# sourceMappingURL=style.css.map */

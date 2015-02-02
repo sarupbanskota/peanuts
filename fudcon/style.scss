@@ -79,32 +79,92 @@ $dark_fedora: #294172;
 			background-attachment: fixed;
 			background-size: cover;
 			height: 100vh;
-			img{
-				margin: auto;
-				padding: 6em  0;
-				padding-bottom: 3em;
-				display: block;
-				width: 80%;
-				height: auto;
-			}
 			p{
+				padding-top: 3em;
+				img{
+					margin: auto;
+					display: block;
+					width: 100%;
+					height: auto;
+				}
 				font-size: 1.3em;
 				text-align: center;
-				padding: 1em;
 				a.pointer{
 					text-decoration: none;
-					padding: 1em 1.75em;
+					padding: 1.2em 1.75em;
 					border: solid 0.2em $dark_fedora;
 					color: $dark_fedora;
 					font-family: 'Quicksand', sans-serif;
 				}
 				span{
-					padding: 5em;
 					color: $dark_fedora;
 				}
 			}
 		}
 	}
-	
 }
+
+
+@media screen and (min-width: 35em){
+
+	article{
+		section.landing{
+			p{
+				img{ width: 80%;}
+				padding-top: 2em;
+			}
+
+		}
+
+	}
+}
+
+@media screen and (min-width: 40em){
+
+	article{
+		section.landing{
+			p{
+				img{ width: 70%;}
+				padding-top: 2em;
+			}
+		}
+
+		section{
+			padding: 0 5em;
+		}
+
+	}
+}
+
+
+@media screen and (min-width: 60em){
+
+	article{
+		section.landing{
+			p{
+				img{ width: 60%;}
+				padding-top: 2em;
+			}
+		}
+		section{
+			padding: 0 8em;
+		}
+	}
+}
+
+@media screen and (min-width: 80em){
+
+	article{
+		section.landing{
+			p{
+				img{ width: 50%;}
+				padding-top: 2em;
+			}
+		}
+		section{
+			padding: 0 12em;
+		}
+	}
+}
+
 

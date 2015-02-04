@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Anton|Pacifico);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
 *{
 	padding: 0; margin: 0; 
@@ -13,6 +14,12 @@
 $dark: #3b3b3b;
 $light: #f1f1f1;
 
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
 span{
 	font-family: 'Pacifico', cursive;
 }
@@ -24,11 +31,17 @@ span{
 		font-size: 2em;
 		font-family: 'Anton', sans-serif;
 		text-align: right;
-		padding: 2em 0;
+		padding: 1.75em 0;
 		a{
 			text-decoration: underline;
-			margin-right: 1em;
 			color: $dark;
+			margin-right: 0.2em;
+		}
+		a.phone-view{
+			text-decoration: none;
+		}
+		a.social{
+			display: none;
 		}
 	}
 	article{
@@ -60,11 +73,19 @@ span{
 @media screen and (min-width: 40em){
 	nav{
 		position: fixed;
-		padding: 1em;
+		padding: 2em;
 		font-size: 1.5em;
 		margin: 3em 3em;
 		a{
 			display: block;
+		}
+		a.phone-view{
+			display: none;
+		}
+		a.social{
+			display: inline;
+			text-decoration: none;
+			color: tomato;
 		}
 	}
 	article{

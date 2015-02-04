@@ -17,13 +17,13 @@
   header {
     position: fixed;
     text-align: right;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Quicksand', sans-serif;
     background-color: white;
     width: 100%;
-    padding: 1em; }
+    padding: 0.3em;
+    font-size: 1.5em; }
     header a {
       color: #3c6eb4;
-      font-size: 1em;
       text-decoration: none; }
 
   footer {
@@ -60,6 +60,10 @@
       article section div.session p {
         padding: 1em 0;
         font-size: 1.3em; }
+        article section div.session p img {
+          width: 20%;
+          padding: 1em;
+          background-color: white; }
   article section.landing {
     background-image: url(images/pune-mobile.png);
     background-position: center center;

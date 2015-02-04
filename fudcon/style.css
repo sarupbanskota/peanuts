@@ -64,6 +64,22 @@
           width: 20%;
           padding: 1em;
           background-color: white; }
+    article section div.sponsors {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      background-color: #f1f1f1;
+      justify-content: space-around;
+      align-items: center; }
+      article section div.sponsors h3 {
+        color: #294172; }
+      article section div.sponsors div.sponsor {
+        text-align: center;
+        padding: 2em 0;
+        max-width: 100%; }
+        article section div.sponsors div.sponsor img {
+          max-width: 20em;
+          height: auto; }
   article section.landing {
     background-image: url(images/pune-mobile.png);
     background-position: center center;
@@ -95,7 +111,11 @@
     width: 65%; } }
 @media screen and (min-width: 40em) {
   article section.landing p img {
-    width: 40%; } }
+    width: 40%; }
+  article section div.sponsors div.sponsor {
+    flex: 1; }
+    article section div.sponsors div.sponsor img {
+      max-width: 10em; } }
 @media screen and (min-width: 80em) {
   article section {
     padding: 0 12em; }

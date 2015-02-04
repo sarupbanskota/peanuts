@@ -76,6 +76,26 @@ $dark_fedora: #294172;
 					}
 				}
 			}
+			div.sponsors{
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: row;
+				background-color: $light;
+				justify-content: space-around;
+				align-items: center;
+				h3{
+					color: $dark_fedora;
+				}
+				div.sponsor{
+					text-align: center;
+					padding: 2em 0;
+					max-width: 100%;
+					img{
+						max-width: 20em;
+						height: auto;
+					}
+				}
+			}
 		}
 
 		section.landing{
@@ -131,6 +151,16 @@ $dark_fedora: #294172;
 		section.landing{
 			p{
 				img{ width: 40%;}
+			}
+		}
+		section{
+			div.sponsors{
+				div.sponsor{
+					flex: 1;
+					img{
+						max-width: 10em;
+					}
+				}
 			}
 		}
 	}

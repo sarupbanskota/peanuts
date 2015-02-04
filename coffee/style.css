@@ -32,6 +32,18 @@ span {
     nav a.social {
       display: none; }
 
+  footer {
+    background-color: tomato;
+    font-size: 1em;
+    color: #f1f1f1;
+    font-family: 'Quicksand', sans-serif;
+    padding: 2em; }
+    footer a {
+      text-decoration: none;
+      color: #f1f1f1;
+      border-bottom: dotted 0.1em #f1f1f1;
+      line-height: 1; }
+
   article {
     padding: 0.75em 0em;
     background-color: red; }
@@ -67,5 +79,9 @@ span {
 
   article {
     padding: 10em 20em; } }
+@media screen and (min-width: 80em) {
+  footer {
+    font-size: 1em;
+    padding: 2em 4em; } }
 
 /*# sourceMappingURL=style.css.map */

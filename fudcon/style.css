@@ -53,12 +53,13 @@
       padding: 1em;
       color: #f1f1f1; }
       article section div.session h5 {
-        font-size: 1em; }
+        font-size: 1.3em; }
       article section div.session h3 {
         padding: 1em 0;
-        font-size: 1.2em; }
+        font-size: 1.5em; }
       article section div.session p {
-        padding: 1em 0; }
+        padding: 1em 0;
+        font-size: 1.3em; }
   article section.landing {
     background-image: url(images/pune-mobile.png);
     background-position: center center;
@@ -67,47 +68,45 @@
     background-size: cover;
     height: 100vh; }
     article section.landing p {
-      padding-top: 3em;
+      padding: 1.5em;
       font-size: 1.3em;
       text-align: center; }
       article section.landing p img {
         margin: auto;
+        margin-top: 4em;
         display: block;
         width: 100%;
         height: auto; }
       article section.landing p a.pointer {
-        text-decoration: none;
         padding: 1.2em 1.75em;
         border: solid 0.2em #294172;
-        color: #294172;
         font-family: 'Quicksand', sans-serif; }
-      article section.landing p span {
-        color: #294172; } }
+      article section.landing p a {
+        text-decoration: none;
+        color: #294172; }
+        article section.landing p a span {
+          font-size: 2em; } }
 @media screen and (min-width: 35em) {
-  article section.landing p {
-    padding-top: 2em; }
-    article section.landing p img {
-      width: 80%; } }
+  article section.landing p img {
+    width: 80%; } }
 @media screen and (min-width: 40em) {
-  article section.landing p {
-    padding-top: 2em; }
-    article section.landing p img {
-      width: 70%; }
+  article section.landing p img {
+    width: 70%; }
   article section {
     padding: 0 5em; } }
 @media screen and (min-width: 60em) {
-  article section.landing p {
-    padding-top: 2em; }
-    article section.landing p img {
-      width: 60%; }
+  article section.landing p img {
+    width: 60%; }
   article section {
     padding: 0 8em; } }
 @media screen and (min-width: 80em) {
-  article section.landing p {
-    padding-top: 2em; }
-    article section.landing p img {
-      width: 50%; }
+  article section.landing p img {
+    width: 50%; }
   article section {
-    padding: 0 12em; } }
+    padding: 0 12em; }
+
+  footer {
+    font-size: 1.2em;
+    padding: 2em 4em; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -17,7 +17,7 @@ $light_pale: #f1f1f1;
 
 @media screen and (min-width: 0em){
 
-	nav,footer{	
+	nav{	
 		display: none;
 	}
 	header{	
@@ -44,19 +44,41 @@ $light_pale: #f1f1f1;
 	}
 	article{
 		section{
+			font-family: 'Crimson Text', serif;
+			padding: 1em 2em;
+			background-color: $light_pale;
+			color: $dark_pale;
 			h2{
 				font-size: 1.5em;
 			}
 			h4{
 				font-size: 0.8em;
+				margin-bottom: 1em;
+				a{
+					text-decoration: none;
+					color: $dark_pale;
+				}
 			}
 			p{
 				font-size: 1em;
+				margin-bottom: 1em;
 			}
-			font-family: 'Crimson Text', serif;
-			padding: 2em;
-			background-color: $light_pale;
-			color: $dark_pale;
+
+		}
+	}
+
+	footer{
+		background-color: $light;
+		font-size: 1em;
+		color: $light_pale;
+		font-family: 'Crimson Text', serif;
+		padding: 2em;
+		a{
+			text-decoration: none;
+			color: $light_pale;
+			font-family: 'Bangers', cursive;
+			border-bottom: dotted 0.1em $light_pale;
+			line-height: 1;
 		}
 	}
 }

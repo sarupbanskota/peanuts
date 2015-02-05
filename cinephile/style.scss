@@ -21,6 +21,7 @@ $light_pale: #f1f1f1;
 		padding: 1em;
 		display: flex;
 		justify-content: space-around;
+		align-items: center;
 		background-color: $light;
 		a{
 			font-family: 'Bangers', cursive;
@@ -96,8 +97,24 @@ $light_pale: #f1f1f1;
 }
 
 @media screen and (min-width: 50em){
+	nav{
+		display: flex;
+		justify-content: flex-end;
+		a{
+			margin-left: 1.5em;
+		}
+	}
+
 	article{
 		padding: 0 10em;
+		section{
+			h2{ font-size: 2em;	}
+			h4{ font-size: 1em; margin-bottom: 2em; }
+			p{
+				font-size: 1.2em;
+				margin-bottom: 2em;
+			}
+		}
 	}
 }
 

@@ -21,12 +21,34 @@ $light: #D6D6D6;
 	article{
 		background-color: $dark;
 		color: $light;
+		min-height: 100vh;
+		section.album{
+			display: flex;
+			flex-direction: column;
+			padding: 2em;
+			div{
+				max-width: 15em;
+				border: solid 0.1em $light;
+				padding: 0.5em;
+				border-radius: 0.3em;
+				color: $light;
+				margin: 1em;
+				h3{	font-family: 'Amatic SC', cursive; font-size: 3em; }
+				a{
+					font-family: 'Sue Ellen Francisco', cursive;
+					font-size: 1.3em;
+					line-height: 1.5;
+					text-decoration: none;
+					color: $light;
+				}
+			}
+
+		}
 		section.landing{
 			padding: 2em;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			min-height: 100vh;
 			div{
 				h1{
 					font-family: 'Amatic SC', cursive;
@@ -51,4 +73,35 @@ $light: #D6D6D6;
 			}
 		}
 	}
+}
+
+@media screen and (min-width: 30em){
+
+	article{
+		section.album{
+			display: flex;
+			justify-content: center;
+			flex-direction: row;
+			flex-wrap: wrap;
+			padding: 2em;
+			div{
+				border: solid 0.1em $light;
+				padding: 0.5em;
+				border-radius: 0.3em;
+				color: $light;
+				margin: 1em;
+				h3{	font-family: 'Amatic SC', cursive; font-size: 3em; }
+				a{
+					font-family: 'Sue Ellen Francisco', cursive;
+					font-size: 1.3em;
+					line-height: 1.5;
+					text-decoration: none;
+					color: $light;
+				}
+			}
+		}
+	}
+
+
+	
 }

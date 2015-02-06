@@ -14,12 +14,43 @@ $dark: #101010;
 $light: #D6D6D6;
 
 @media screen and (min-width: 0em){
-	nav,footer{
-		display: none;
+
+	body{
+		background-color: $dark;
+	}
+
+	footer{
+		padding: 1em 2em;
+		color: $light;
+		font-family: 'Amatic SC', cursive; font-size: 2em;
+		p{
+			a{
+				text-decoration: none;
+				color: yellow;
+				border-bottom: dotted 0.1em $light;
+				line-height: 1;
+			}
+		}
+	}
+
+	header{
+
+		h1{
+			padding: 1em;
+			color: $light;
+			font-family: 'Amatic SC', cursive; font-size: 3em;
+			a{
+				text-decoration: none;
+				fill: $light;
+				.icon{
+					display: inline;
+					height: 1em;
+				}
+			}
+		}
 	}
 
 	article{
-		background-color: $dark;
 		color: $light;
 		min-height: 100vh;
 
@@ -27,17 +58,18 @@ $light: #D6D6D6;
 			display: flex;
 			flex-flow: column nowrap;
 			align-items: center;
-			justify-contents: center;
-			padding: 2em;
+			justify-contents: flex-start;
+			padding: 0 2em;
 			img{
 				padding: 0.5em 2em;
 				width: 100%;
 			}
 		}
+
 		section.album{
 			display: flex;
 			flex-direction: column;
-			padding: 2em;
+			padding: 0em 2em;
 			div{
 				max-width: 15em;
 				border: solid 0.1em $light;
@@ -111,7 +143,7 @@ $light: #D6D6D6;
 			justify-content: center;
 			flex-direction: row;
 			flex-wrap: wrap;
-			padding: 2em;
+			padding: 0 2em;
 			div{
 				border: solid 0.1em $light;
 				padding: 0.5em;
@@ -136,9 +168,15 @@ $light: #D6D6D6;
 
 @media screen and (min-width: 70em){
 
+	header{
+		h1{
+			padding: 1em 2em;
+		}
+	}
+
 	article{
 		section.masonry{
-			padding: 4em 10em;
+			padding: 1em 10em;
 			column-count: 3;
 			column-gap: 0.3em;
 	    -moz-column-count: 3;

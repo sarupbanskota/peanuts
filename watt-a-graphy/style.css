@@ -9,26 +9,48 @@
   box-sizing: border-box; }
 
 @media screen and (min-width: 0em) {
-  nav, footer {
-    display: none; }
+  body {
+    background-color: #101010; }
+
+  footer {
+    padding: 1em 2em;
+    color: #D6D6D6;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em; }
+    footer p a {
+      text-decoration: none;
+      color: yellow;
+      border-bottom: dotted 0.1em #D6D6D6;
+      line-height: 1; }
+
+  header h1 {
+    padding: 1em;
+    color: #D6D6D6;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em; }
+    header h1 a {
+      text-decoration: none;
+      fill: #D6D6D6; }
+      header h1 a .icon {
+        display: inline;
+        height: 1em; }
 
   article {
-    background-color: #101010;
     color: #D6D6D6;
     min-height: 100vh; }
     article section.masonry {
       display: flex;
       flex-flow: column nowrap;
       align-items: center;
-      justify-contents: center;
-      padding: 2em; }
+      justify-contents: flex-start;
+      padding: 0 2em; }
       article section.masonry img {
         padding: 0.5em 2em;
         width: 100%; }
     article section.album {
       display: flex;
       flex-direction: column;
-      padding: 2em; }
+      padding: 0em 2em; }
       article section.album div {
         max-width: 15em;
         border: solid 0.1em #D6D6D6;
@@ -85,7 +107,7 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 2em; }
+    padding: 0 2em; }
     article section.album div {
       border: solid 0.1em #D6D6D6;
       padding: 0.5em;
@@ -104,8 +126,11 @@
     article section.album div:hover {
       border: solid 0.2em #D6D6D6; } }
 @media screen and (min-width: 70em) {
+  header h1 {
+    padding: 1em 2em; }
+
   article section.masonry {
-    padding: 4em 10em;
+    padding: 1em 10em;
     column-count: 3;
     column-gap: 0.3em;
     -moz-column-count: 3;

@@ -102,17 +102,16 @@ $light: #D6D6D6;
 					font-family: 'Sue Ellen Francisco', cursive;
 					font-size: 1.2em;
 				}
-				h6{
+				a{
+					display: block;
 					background-color: $light;
 					border-radius: 0.2em;
 					font-size: 1.5em;
 					font-family: 'Sue Ellen Francisco', cursive;
 					text-align: center;
 					margin-top: 1em;
-					a{
-						color: $dark;
-						text-decoration: none;
-					}
+					color: $dark;
+					text-decoration: none;
 				}
 			}
 		}

@@ -78,16 +78,16 @@
       article section.landing div h3 {
         font-family: 'Sue Ellen Francisco', cursive;
         font-size: 1.2em; }
-      article section.landing div h6 {
+      article section.landing div a {
+        display: block;
         background-color: #D6D6D6;
         border-radius: 0.2em;
         font-size: 1.5em;
         font-family: 'Sue Ellen Francisco', cursive;
         text-align: center;
-        margin-top: 1em; }
-        article section.landing div h6 a {
-          color: #101010;
-          text-decoration: none; } }
+        margin-top: 1em;
+        color: #101010;
+        text-decoration: none; } }
 @media screen and (min-width: 40em) {
   article section.masonry {
     display: block;

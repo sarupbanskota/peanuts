@@ -33,11 +33,27 @@ $light: #877CB0;
 		}
 
 		header{
+			background-color: $light;
 			h1{
+				cursor: pointer;
 				padding: 0.5em 1em;
-				background-color: $light;
 				color: $medium;
 				letter-spacing: -0.1em;
+				svg{
+					width: 0.5em;
+					fill: $dark;
+				}
+			}
+			.dropdown-list{
+				background-color: $light;
+				min-height: 80vh;
+				h2{
+					padding: 0.5em 1.5em;
+					font-size: 1em;
+					color: $medium;
+					letter-spacing: -0.1em;
+					cursor: pointer;
+				}
 			}
 		}
 

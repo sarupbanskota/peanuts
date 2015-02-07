@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Quicksand);
+* {
+  padding: 0;
+  margin: 0; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media screen and (min-width: 0em) {
+  body {
+    background-color: #261758;
+    font-family: 'Quicksand', sans-serif; }
+
+  article section.landing {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    article section.landing div h1 {
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+      color: #877CB0; }
+    article section.landing div h2 {
+      background-color: #12073B;
+      border-radius: 0.2em;
+      font-size: 1.5em;
+      padding: 1em 1.5em;
+      text-align: center;
+      color: #877CB0;
+      text-decoration: none;
+      cursor: pointer; }
+    article section.landing div form {
+      display: none; }
+      article section.landing div form input {
+        margin: auto;
+        width: 100%;
+        display: block;
+        padding: 1em;
+        border: none;
+        border-radius: 0.2em;
+        margin-bottom: 0.2em; }
+      article section.landing div form input[type=text], article section.landing div form input[type=password] {
+        text-indent: 1em; }
+      article section.landing div form input[type="submit"] {
+        background-color: #12073B;
+        font-size: 1.3em;
+        text-align: center;
+        color: #877CB0;
+        cursor: pointer; } }
+
+/*# sourceMappingURL=style.css.map */

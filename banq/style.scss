@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Quicksand);
+
+*{
+	padding: 0; margin: 0; 
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+$dark: #12073B;
+$medium: #261758;
+$light: #877CB0;
+
+@media screen and (min-width: 0em){
+
+	body{
+		background-color: $medium;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	article{
+
+		section.landing{
+			min-height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			div{
+				h1{
+					text-align: center;
+					font-family: 'Pacifico', cursive;
+					font-size: 3em;
+					color: $light;
+				}
+				h2{
+					background-color: $dark;
+					border-radius: 0.2em;
+					font-size: 1.5em;
+					padding: 1em 1.5em;
+					text-align: center;
+					color: $light;
+					text-decoration: none;
+					cursor: pointer;
+				}
+				form{
+					input{
+						margin: auto;
+						width: 100%;
+						display: block;
+						padding: 1em;
+						
+						border: none;
+						border-radius: 0.2em;
+						margin-bottom: 0.2em;
+					}
+					input[type=text], input[type=password]{
+						text-indent: 1em;
+					}
+					input[type="submit"]{
+						background-color: $dark;
+						font-size: 1.3em;
+						text-align: center;
+						color: $light;
+						cursor: pointer;
+					}
+					display: none;
+				}
+			}
+		}
+	}
+}

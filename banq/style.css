@@ -13,15 +13,51 @@
     font-family: 'Quicksand', sans-serif; }
 
   article nav {
-    padding: 1.5em 1em;
-    background-color: #261758; }
+    padding: 1em;
+    background-color: #261758;
+    color: #877CB0;
+    font-family: 'Pacifico', cursive; }
+    article nav h1 {
+      font-size: 1.5em; }
   article header h1 {
-    padding: 0.5em;
-    background-color: #605492;
-    color: #261758; }
+    padding: 0.5em 1em;
+    background-color: #877CB0;
+    color: #261758;
+    letter-spacing: -0.1em; }
   article section.graph {
-    background-color: #f1f1f1;
-    min-height: 80vh; }
+    background-color: #f1f1f1; }
+  article section.table {
+    padding: 0.5em;
+    background-color: #f1f1f1; }
+    article section.table div {
+      padding: 1em; }
+      article section.table div h3 {
+        font-size: 1.5em;
+        color: #877CB0; }
+      article section.table div p {
+        color: gray; }
+    article section.table div.withdrawal {
+      background-color: #FFE879; }
+    article section.table div.deposit {
+      background-color: white; }
+    article section.table div.loader {
+      padding: 1em 5em; }
+      article section.table div.loader h2 {
+        background-color: #12073B;
+        background-color: #12073B;
+        border-radius: 0.2em;
+        font-size: 1.5em;
+        padding: 1em;
+        text-align: center;
+        color: #877CB0;
+        text-decoration: none;
+        cursor: pointer; }
+  article section.loader {
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    background-color: #261758; }
   article section.landing {
     background-color: #261758;
     min-height: 100vh;

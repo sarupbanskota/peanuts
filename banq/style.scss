@@ -23,21 +23,71 @@ $light: #877CB0;
 
 	article{
 		nav{
-			padding: 1.5em 1em;
+			padding: 1em;
 			background-color: $medium;
+			color: $light;
+			font-family: 'Pacifico', cursive;
+			h1{
+				font-size: 1.5em;
+			}
 		}
 
 		header{
 			h1{
-				padding: 0.5em;
-				background-color: $darker;
+				padding: 0.5em 1em;
+				background-color: $light;
 				color: $medium;
+				letter-spacing: -0.1em;
 			}
 		}
 
 		section.graph{
 			background-color: #f1f1f1;
-			min-height: 80vh;
+		}
+
+		section.table{
+			padding: 0.5em;
+			background-color: #f1f1f1;
+			div{
+				padding: 1em;
+				h3{
+					font-size: 1.5em;
+					color: $light;
+				}
+				p{
+					color: gray;
+				}
+			}
+			div.withdrawal{
+				background-color: #FFE879;
+			}
+			div.deposit{
+				background-color: white;
+			}
+			div.loader{
+				padding: 1em 5em;
+				h2{
+					background-color: $dark;
+					background-color: $dark;
+					border-radius: 0.2em;
+					font-size: 1.5em;
+					padding: 1em;
+					text-align: center;
+					color: $light;
+					text-decoration: none;
+					cursor: pointer;
+				}
+
+			}
+		}
+
+		section.loader{
+			display: flex;
+			padding: 2em;
+			justify-content: center;
+			align-items: center;
+			background-color: $medium; 
+
 		}
 
 		section.landing{

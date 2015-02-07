@@ -12,18 +12,36 @@
 
 $dark: #12073B;
 $medium: #261758;
+$darker: #605492;
 $light: #877CB0;
 
 @media screen and (min-width: 0em){
 
 	body{
-		background-color: $medium;
 		font-family: 'Quicksand', sans-serif;
 	}
 
 	article{
+		nav{
+			padding: 1.5em 1em;
+			background-color: $medium;
+		}
+
+		header{
+			h1{
+				padding: 0.5em;
+				background-color: $darker;
+				color: $medium;
+			}
+		}
+
+		section.graph{
+			background-color: #f1f1f1;
+			min-height: 80vh;
+		}
 
 		section.landing{
+			background-color: $medium;
 			min-height: 100vh;
 			display: flex;
 			justify-content: center;
@@ -32,7 +50,7 @@ $light: #877CB0;
 				h1{
 					text-align: center;
 					font-family: 'Pacifico', cursive;
-					font-size: 3em;
+					font-size: 5em;
 					color: $light;
 				}
 				h2{
@@ -50,17 +68,14 @@ $light: #877CB0;
 						margin: auto;
 						width: 100%;
 						display: block;
-						padding: 1em;
-						
+						padding: 1.5em;
 						border: none;
 						border-radius: 0.2em;
-						margin-bottom: 0.2em;
-					}
-					input[type=text], input[type=password]{
-						text-indent: 1em;
+						margin-bottom: 0.5em;
 					}
 					input[type="submit"]{
 						background-color: $dark;
+						padding: 0.75em;
 						font-size: 1.3em;
 						text-align: center;
 						color: $light;

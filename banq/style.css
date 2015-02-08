@@ -10,7 +10,8 @@
 
 @media screen and (min-width: 0em) {
   body {
-    font-family: 'Quicksand', sans-serif; }
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f1f1f1; }
 
   article nav {
     padding: 1em;
@@ -56,7 +57,9 @@
     article section.table div.deposit {
       background-color: white; }
     article section.table div.loader {
-      padding: 1em 5em; }
+      display: flex;
+      justify-content: center;
+      align-items: center; }
       article section.table div.loader h2 {
         background-color: #12073B;
         background-color: #12073B;
@@ -112,6 +115,9 @@
         color: #877CB0;
         cursor: pointer; } }
 @media screen and (min-width: 40em) {
+  nav, header {
+    margin: 0 3em; }
+
   section.table div {
     margin: 0 3em;
     display: flex;
@@ -130,6 +136,9 @@
     section.table div.header h2 {
       color: #261758; } }
 @media screen and (min-width: 70em) {
+  nav, header {
+    margin: 0 5em; }
+
   section.table div {
     margin: 0 5em; }
     section.table div .optional {

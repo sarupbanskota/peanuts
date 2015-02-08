@@ -167,6 +167,55 @@ $light: #877CB0;
 	}
 }
 
+@media screen and (min-width: 30em){
+
+	nav, header{
+		margin: 0 2em;
+	}
+
+	section.graph{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		margin: 0 3em !important;
+		.hidden{
+			display: block !important;
+			width: 100%;
+		}
+		.visible{
+			width: 100%;
+		}
+	}
+
+	section.table{
+		div{
+			margin: 0 2em;
+			padding: 0.5em !important;
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			align-items: center;
+			.optional{
+				display: none;
+			}
+			h2, p{ 
+				font-size: 1em; 
+				width: 6em;
+				text-align: center;
+			}
+		}
+		div.header{
+			display: flex !important;
+			background-color: $light;
+			padding: 1em !important;
+			h2{
+				color: $medium;
+			}
+		}
+	}
+	
+}
+
 
 @media screen and (min-width: 40em){
 
@@ -175,12 +224,23 @@ $light: #877CB0;
 		}
 
 		section.graph{
-			margin: 0 3em;
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			margin: 0 3em !important;
+			.hidden{
+				display: block !important;
+				width: 60%;
+			}
+			.visible{
+				width: 40%;
+			}
 		}
 
 		section.table{
 			div{
 				margin: 0 3em;
+				padding: 0.5em !important;
 				display: flex;
 				flex-flow: row nowrap;
 				justify-content: space-between;
@@ -197,6 +257,7 @@ $light: #877CB0;
 			div.header{
 				display: flex !important;
 				background-color: $light;
+				padding: 1em !important;
 				h2{
 					color: $medium;
 				}
@@ -210,20 +271,6 @@ $light: #877CB0;
 
 		nav, header{
 			margin: 0 5em;
-		}
-
-		section.graph{
-			display: flex;
-			flex-flow: row nowrap;
-			justify-content: space-between;
-			margin: 0 10em !important;
-			.hidden{
-				display: block !important;
-				width: 60%;
-			}
-			.visible{
-				width: 40%;
-			}
 		}
 
 		section.table{

@@ -119,15 +119,24 @@
         text-align: center;
         color: #877CB0;
         cursor: pointer; } }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 30em) {
   nav, header {
-    margin: 0 3em; }
+    margin: 0 2em; }
 
   section.graph {
-    margin: 0 3em; }
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 3em !important; }
+    section.graph .hidden {
+      display: block !important;
+      width: 100%; }
+    section.graph .visible {
+      width: 100%; }
 
   section.table div {
-    margin: 0 3em;
+    margin: 0 2em;
+    padding: 0.5em !important;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -140,23 +149,47 @@
       text-align: center; }
   section.table div.header {
     display: flex !important;
-    background-color: #877CB0; }
+    background-color: #877CB0;
+    padding: 1em !important; }
     section.table div.header h2 {
       color: #261758; } }
-@media screen and (min-width: 70em) {
+@media screen and (min-width: 40em) {
   nav, header {
-    margin: 0 5em; }
+    margin: 0 3em; }
 
   section.graph {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    margin: 0 10em !important; }
+    margin: 0 3em !important; }
     section.graph .hidden {
       display: block !important;
       width: 60%; }
     section.graph .visible {
       width: 40%; }
+
+  section.table div {
+    margin: 0 3em;
+    padding: 0.5em !important;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center; }
+    section.table div .optional {
+      display: none; }
+    section.table div h2, section.table div p {
+      font-size: 1em;
+      width: 6em;
+      text-align: center; }
+  section.table div.header {
+    display: flex !important;
+    background-color: #877CB0;
+    padding: 1em !important; }
+    section.table div.header h2 {
+      color: #261758; } }
+@media screen and (min-width: 70em) {
+  nav, header {
+    margin: 0 5em; }
 
   section.table div {
     margin: 0 5em; }

@@ -138,35 +138,7 @@
       display: block !important;
       width: 100%; }
     section.graph .visible {
-      width: 100%; }
-
-  section.table div {
-    margin: 0 2em;
-    padding: 0.5em !important;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center; }
-    section.table div .optional {
-      display: none; }
-    section.table div h2, section.table div p {
-      font-size: 1em;
-      width: 6em;
-      text-align: center; }
-  section.table div.header {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex !important;
-    background-color: #877CB0;
-    padding: 1em !important; }
-    section.table div.header h2 {
-      color: #261758; } }
+      width: 100%; } }
 @media screen and (min-width: 40em) {
   nav, header {
     margin: 0 3em; }

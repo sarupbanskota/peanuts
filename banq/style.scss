@@ -189,41 +189,6 @@ $light: #877CB0;
 			width: 100%;
 		}
 	}
-
-	section.table{
-		div{
-			margin: 0 2em;
-			padding: 0.5em !important;
-			display: -webkit-box;
-			display: -moz-box;
-			display: -ms-flexbox;
-			display: -webkit-flex;
-			display: flex;
-			flex-flow: row nowrap;
-			justify-content: space-between;
-			align-items: center;
-			.optional{
-				display: none;
-			}
-			h2, p{ 
-				font-size: 1em; 
-				width: 6em;
-				text-align: center;
-			}
-		}
-		div.header{
-			display: -webkit-box;
-			display: -moz-box;
-			display: -ms-flexbox;
-			display: -webkit-flex;
-			display: flex !important;
-			background-color: $light;
-			padding: 1em !important;
-			h2{
-				color: $medium;
-			}
-		}
-	}
 	
 }
 

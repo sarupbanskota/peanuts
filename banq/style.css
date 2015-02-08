@@ -36,10 +36,13 @@
       article header .dropdown-list h2 {
         padding: 0.5em 1.5em;
         font-size: 1em;
-        color: #261758;
         letter-spacing: -0.1em;
         cursor: pointer; }
+        article header .dropdown-list h2 a {
+          text-decoration: none;
+          color: #261758; }
   article section.graph {
+    margin: 0 0.5em;
     background-color: #f1f1f1; }
   article section.table {
     padding: 0.5em;
@@ -118,6 +121,9 @@
   nav, header {
     margin: 0 3em; }
 
+  section.graph {
+    margin: 0 3em; }
+
   section.table div {
     margin: 0 3em;
     display: flex;
@@ -138,6 +144,9 @@
 @media screen and (min-width: 70em) {
   nav, header {
     margin: 0 5em; }
+
+  section.graph {
+    margin: 0 10em !important; }
 
   section.table div {
     margin: 0 5em; }

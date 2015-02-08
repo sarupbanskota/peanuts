@@ -18,8 +18,8 @@ $(document).ready(function(){
 		$(this).parent().prev("h1").find("span").html(dropped_value);
 		$(this).parent().hide();
 
-		//$(".graph").hide();
-		//$("#" + dropped_value.replace(" ", "")).show();
+		$(".graph").hide();
+		$("." + dropped_value.replace(/ /g, "")).show();
 
 		//put this in the header
 		//put header into the h2 spot

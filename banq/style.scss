@@ -51,14 +51,18 @@ $light: #877CB0;
 				h2{
 					padding: 0.5em 1.5em;
 					font-size: 1em;
-					color: $medium;
 					letter-spacing: -0.1em;
 					cursor: pointer;
+					a{
+						text-decoration: none;
+						color: $medium;
+					}
 				}
 			}
 		}
 
 		section.graph{
+			margin: 0 0.5em;
 			background-color: #f1f1f1;
 		}
 
@@ -167,6 +171,10 @@ $light: #877CB0;
 			margin: 0 3em;
 		}
 
+		section.graph{
+			margin: 0 3em;
+		}
+
 		section.table{
 			div{
 				margin: 0 3em;
@@ -199,6 +207,10 @@ $light: #877CB0;
 
 		nav, header{
 			margin: 0 5em;
+		}
+
+		section.graph{
+			margin: 0 10em !important;
 		}
 
 		section.table{

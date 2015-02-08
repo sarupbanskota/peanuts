@@ -62,6 +62,10 @@
     article section.table div.deposit {
       background-color: white; }
     article section.table div.loader {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center;
       align-items: center; }
@@ -75,15 +79,13 @@
         color: #877CB0;
         text-decoration: none;
         cursor: pointer; }
-  article section.loader {
-    display: flex;
-    padding: 2em;
-    justify-content: center;
-    align-items: center;
-    background-color: #261758; }
   article section.landing {
     background-color: #261758;
     min-height: 100vh;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -124,6 +126,10 @@
     margin: 0 2em; }
 
   section.graph {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -137,6 +143,10 @@
   section.table div {
     margin: 0 2em;
     padding: 0.5em !important;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -148,6 +158,10 @@
       width: 6em;
       text-align: center; }
   section.table div.header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex !important;
     background-color: #877CB0;
     padding: 1em !important; }
@@ -158,6 +172,10 @@
     margin: 0 3em; }
 
   section.graph {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -171,6 +189,10 @@
   section.table div {
     margin: 0 3em;
     padding: 0.5em !important;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -182,6 +204,10 @@
       width: 6em;
       text-align: center; }
   section.table div.header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex !important;
     background-color: #877CB0;
     padding: 1em !important; }

@@ -64,6 +64,9 @@ $light: #877CB0;
 		section.graph{
 			margin: 0 0.5em;
 			background-color: #f1f1f1;
+			.hidden{
+				display: none;
+			}
 		}
 
 		section.table{
@@ -210,7 +213,17 @@ $light: #877CB0;
 		}
 
 		section.graph{
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
 			margin: 0 10em !important;
+			.hidden{
+				display: block !important;
+				width: 60%;
+			}
+			.visible{
+				width: 40%;
+			}
 		}
 
 		section.table{

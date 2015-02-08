@@ -44,6 +44,8 @@
   article section.graph {
     margin: 0 0.5em;
     background-color: #f1f1f1; }
+    article section.graph .hidden {
+      display: none; }
   article section.table {
     padding: 0.5em;
     background-color: #f1f1f1; }
@@ -146,7 +148,15 @@
     margin: 0 5em; }
 
   section.graph {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
     margin: 0 10em !important; }
+    section.graph .hidden {
+      display: block !important;
+      width: 60%; }
+    section.graph .visible {
+      width: 40%; }
 
   section.table div {
     margin: 0 5em; }

@@ -66,13 +66,15 @@ $light: #877CB0;
 			background-color: #f1f1f1;
 			div{
 				padding: 1em;
-				h3{
-					font-size: 1.5em;
-					color: $light;
-				}
 				p{
 					color: gray;
 				}
+				.optional{
+					display: none;
+				}
+			}
+			div.header{
+				display: none;
 			}
 			div.withdrawal{
 				background-color: #FFE879;
@@ -155,3 +157,46 @@ $light: #877CB0;
 	}
 }
 
+
+@media screen and (min-width: 40em){
+
+		section.table{
+			div{
+				margin: 0 3em;
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: space-between;
+				align-items: center;
+				.optional{
+					display: none;
+				}
+				h2, p{ 
+					font-size: 1em; 
+					width: 6em;
+					text-align: center;
+				}
+			}
+			div.header{
+				display: flex !important;
+				background-color: $light;
+				h2{
+					color: $medium;
+				}
+			}
+		}
+
+
+}
+
+@media screen and (min-width: 70em){
+
+		section.table{
+			div{
+				margin: 0 5em;
+				.optional{
+					display: block !important;
+				}
+			}
+		}
+	
+}

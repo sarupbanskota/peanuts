@@ -45,11 +45,12 @@
     background-color: #f1f1f1; }
     article section.table div {
       padding: 1em; }
-      article section.table div h3 {
-        font-size: 1.5em;
-        color: #877CB0; }
       article section.table div p {
         color: gray; }
+      article section.table div .optional {
+        display: none; }
+    article section.table div.header {
+      display: none; }
     article section.table div.withdrawal {
       background-color: #FFE879; }
     article section.table div.deposit {
@@ -110,5 +111,28 @@
         text-align: center;
         color: #877CB0;
         cursor: pointer; } }
+@media screen and (min-width: 40em) {
+  section.table div {
+    margin: 0 3em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center; }
+    section.table div .optional {
+      display: none; }
+    section.table div h2, section.table div p {
+      font-size: 1em;
+      width: 6em;
+      text-align: center; }
+  section.table div.header {
+    display: flex !important;
+    background-color: #877CB0; }
+    section.table div.header h2 {
+      color: #261758; } }
+@media screen and (min-width: 70em) {
+  section.table div {
+    margin: 0 5em; }
+    section.table div .optional {
+      display: block !important; } }
 
 /*# sourceMappingURL=style.css.map */

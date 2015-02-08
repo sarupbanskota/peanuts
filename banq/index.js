@@ -14,8 +14,8 @@ $(document).ready(function(){
 	});
 	$(".dropdown-list > h2").click(function(){
 		var dropped_value = $(this).html();
-		$(this).html($(this).parent().prev("h1").html());
-		$(this).parent().prev("h1").html(dropped_value);
+		$(this).html($(this).parent().prev("h1").find("span").html());
+		$(this).parent().prev("h1").find("span").html(dropped_value);
 		$(this).parent().hide();
 
 		//$(".graph").hide();

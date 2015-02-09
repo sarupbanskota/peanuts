@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Bangers|Crimson+Text|Great+Vibes);
+@import url(http://fonts.googleapis.com/css?family=Bangers|Neucha|Libre+Baskerville);
 * {
   padding: 0;
   margin: 0; }
@@ -21,28 +21,41 @@
       color: #f1f1f1; }
 
   header {
-    color: #BD0C0C;
-    background-color: #870000;
-    padding: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #f1f1f1;
+    background: url(images/home_screen.jpg);
     min-height: 100vh; }
     header div {
-      text-align: right; }
+      background-color: black;
+      text-align: right;
+      opacity: 0.8;
+      color: #f1f1f1;
+      min-height: 100vh;
+      font-family: 'Bangers', cursive;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
       header div h1 {
-        font-size: 5em;
-        font-family: 'Bangers', cursive;
+        padding: 0 1em;
+        font-size: 3em;
         line-height: 0.8; }
       header div h2 {
-        font-size: 3em;
-        font-family: 'Crimson Text', serif;
-        line-height: 0.8; }
+        padding: 0 1.25em;
+        font-size: 2em;
+        font-family: 'Neucha', cursive;
+        line-height: 0.8;
+        margin-bottom: 1.5em; }
+      header div a {
+        font-family: 'Neucha', cursive;
+        border: solid 0.1em #f1f1f1;
+        background-color: red;
+        font-size: 1.5em;
+        padding: 1em 2em; }
 
   article img {
     width: 100%; }
   article section {
-    font-family: 'Crimson Text', serif;
+    font-family: 'PT Sans', sans-serif;
     padding: 1em 2em;
     background-color: #f1f1f1;
     color: #400000; }
@@ -62,7 +75,7 @@
     background-color: #BD0C0C;
     font-size: 1em;
     color: #f1f1f1;
-    font-family: 'Crimson Text', serif;
+    font-family: 'PT Sans', sans-serif;
     padding: 2em; }
     footer a {
       text-decoration: none;

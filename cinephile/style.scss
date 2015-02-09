@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Bangers|Crimson+Text|Great+Vibes);
+@import url(http://fonts.googleapis.com/css?family=Bangers|Neucha|Libre+Baskerville);
+
 
 *{
 	padding: 0; margin: 0; 
@@ -31,24 +32,38 @@ $light_pale: #f1f1f1;
 	}
 
 	header{	
-		color: $light;
-		background-color: $dark;
-		padding: 2em;
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		color: #f1f1f1;
+		background: url(images/home_screen.jpg);
 		min-height: 100vh;
 		div{
+			background-color: black;
 			text-align: right;
+			opacity: 0.8;
+			color: #f1f1f1;
+			min-height: 100vh;
+			font-family: 'Bangers', cursive;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
 			h1{
-				font-size: 5em;
-				font-family: 'Bangers', cursive;
+				padding: 0 1em;
+				font-size: 3em;
 				line-height: 0.8;
 			}
 			h2{
-				font-size: 3em;
-				font-family: 'Crimson Text', serif;
+				padding: 0 1.25em;
+				font-size: 2em;
+				font-family: 'Neucha', cursive;
 				line-height: 0.8;
+				margin-bottom: 1.5em;
+			}
+			a{
+				font-family: 'Neucha', cursive;
+				border: solid 0.1em #f1f1f1; 
+				background-color: red;
+				font-size: 1.5em;
+				padding: 1em 2em;
 			}
 		}
 	}
@@ -57,7 +72,7 @@ $light_pale: #f1f1f1;
 			width: 100%;
 		}
 		section{
-			font-family: 'Crimson Text', serif;
+			font-family: 'PT Sans', sans-serif;
 			padding: 1em 2em;
 			background-color: $light_pale;
 			color: $dark_pale;
@@ -84,7 +99,7 @@ $light_pale: #f1f1f1;
 		background-color: $light;
 		font-size: 1em;
 		color: $light_pale;
-		font-family: 'Crimson Text', serif;
+		font-family: 'PT Sans', sans-serif;
 		padding: 2em;
 		a{
 			text-decoration: none;

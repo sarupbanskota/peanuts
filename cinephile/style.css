@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Bangers|Neucha|Libre+Baskerville);
+@import url(http://fonts.googleapis.com/css?family=Bangers|Neucha|Libre+Baskerville|Crimson+Text);
 * {
   padding: 0;
   margin: 0; }
@@ -50,32 +50,46 @@
         border: solid 0.1em #f1f1f1;
         background-color: red;
         font-size: 1.5em;
-        padding: 1em 2em; }
+        padding: 1em 2em;
+        text-decoration: none;
+        color: #f1f1f1; }
 
   article img {
     width: 100%; }
   article section {
-    font-family: 'PT Sans', sans-serif;
-    padding: 1em 2em;
-    background-color: #f1f1f1;
+    font-family: 'Crimson Text', serif;
     color: #400000; }
-    article section h2 {
-      font-size: 1.5em; }
-    article section h4 {
-      font-size: 0.8em;
-      margin-bottom: 1em; }
-      article section h4 a {
+    article section div.header {
+      padding: 3em 1em;
+      background-image: url(images/post_photo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+      article section div.header h2 {
+        font-size: 2em;
+        color: #f1f1f1; }
+      article section div.header h4 {
+        font-size: 0.8em;
+        margin-bottom: 1em;
+        color: #d6d6d6; }
+    article section p {
+      padding: 1em;
+      font-size: 1em; }
+  article section.summary {
+    padding: 1em;
+    padding-bottom: 4em; }
+    article section.summary h2 {
+      padding: 0 1em; }
+    article section.summary h4, article section.summary p {
+      padding: 0 1.5em; }
+      article section.summary h4 a, article section.summary p a {
         text-decoration: none;
         color: #400000; }
-    article section p {
-      font-size: 1em;
-      margin-bottom: 1em; }
 
   footer {
     background-color: #BD0C0C;
-    font-size: 1em;
+    font-size: 1.5em;
     color: #f1f1f1;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Crimson Text', serif;
     padding: 2em; }
     footer a {
       text-decoration: none;
@@ -83,6 +97,14 @@
       font-family: 'Bangers', cursive;
       border-bottom: dotted 0.1em #f1f1f1;
       line-height: 1; } }
+@media screen and (min-width: 30em) {
+  header div h1 {
+    font-size: 5em; }
+  header div h2 {
+    font-size: 3em; }
+
+  article {
+    padding: 0 4em; } }
 @media screen and (min-width: 50em) {
   nav {
     display: flex;
@@ -90,16 +112,24 @@
     nav a {
       margin-left: 1.5em; }
 
+  header div h1 {
+    font-size: 5em; }
+  header div h2 {
+    font-size: 3em; }
+
   article {
-    padding: 0 10em; }
-    article section h2 {
-      font-size: 2em; }
-    article section h4 {
-      font-size: 1em;
-      margin-bottom: 2em; }
+    padding: 0 8em; }
+    article section div.header h2 {
+      font-size: 4em; }
+    article section div.header h4 {
+      font-size: 1em; }
     article section p {
-      font-size: 1.2em;
-      margin-bottom: 2em; } }
+      font-size: 1.5em; }
+    article section.summary h2, article section.summary h4, article section.summary p {
+      padding: 0.25em 0; }
+      article section.summary h2 a, article section.summary h4 a, article section.summary p a {
+        text-decoration: none;
+        color: #400000; } }
 @media screen and (min-width: 70em) {
   article {
     padding: 0 15em; } }

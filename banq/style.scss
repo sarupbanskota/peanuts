@@ -76,6 +76,17 @@ $light: #877CB0;
 				padding: 1em;
 				p{
 					color: gray;
+					strong{
+						span.out{
+							color: red;
+						}
+						span.in{
+							color: green;
+						}
+						span.tag{
+							border-bottom: dotted 0.1em;
+						}
+					}
 				}
 				.optional{
 					display: none;
@@ -89,6 +100,15 @@ $light: #877CB0;
 			}
 			div.deposit{
 				background-color: white;
+			}
+			div.completed{
+				background-color: #9df28f;
+			}
+			div.pending{
+				background-color: #ffffe7;
+			}
+			div.refused{
+				background-color: #ffaaaa;
 			}
 			div.loader{
 				display: -webkit-box;

@@ -53,6 +53,12 @@
       padding: 1em; }
       article section.table div p {
         color: gray; }
+        article section.table div p strong span.out {
+          color: red; }
+        article section.table div p strong span.in {
+          color: green; }
+        article section.table div p strong span.tag {
+          border-bottom: dotted 0.1em; }
       article section.table div .optional {
         display: none; }
     article section.table div.header {
@@ -61,6 +67,12 @@
       background-color: #FFE879; }
     article section.table div.deposit {
       background-color: white; }
+    article section.table div.completed {
+      background-color: #9df28f; }
+    article section.table div.pending {
+      background-color: #ffffe7; }
+    article section.table div.refused {
+      background-color: #ffaaaa; }
     article section.table div.loader {
       display: -webkit-box;
       display: -moz-box;

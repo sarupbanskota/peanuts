@@ -120,6 +120,47 @@ $light: #877CB0;
 			}
 		}
 
+		section.activity{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			div{	
+				a{
+					display: block;
+					padding: 1em;
+					margin: 1em auto;
+					border: solid 0.1em $light;
+					border-radius: 0.25em;
+					text-decoration: none;
+					color: $light;
+				}
+				a.recommended{
+					background-color: $light;
+					color: #f1f1f1;
+				}
+				a:hover{
+					background-color: $light;
+					color: #f1f1f1;
+				}
+			}
+		}
+
+		footer{
+			padding: 2em;
+			background-color: $light;
+			color: #f1f1f1;
+			div{
+				h2{
+					font-size: 1em;
+					a{
+						text-decoration: none;
+						color: white;
+						border-bottom: dotted 0.1em white;
+					}
+				}
+			}
+		}
+
 		section.landing{
 			background-color: $medium;
 			min-height: 100vh;

@@ -80,6 +80,34 @@
       cursor: pointer;
       border: solid 0.1em white;
       border-top: none; }
+  article section.activity {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    article section.activity div a {
+      display: block;
+      padding: 1em;
+      margin: 1em auto;
+      border: solid 0.1em #877CB0;
+      border-radius: 0.25em;
+      text-decoration: none;
+      color: #877CB0; }
+    article section.activity div a.recommended {
+      background-color: #877CB0;
+      color: #f1f1f1; }
+    article section.activity div a:hover {
+      background-color: #877CB0;
+      color: #f1f1f1; }
+  article footer {
+    padding: 2em;
+    background-color: #877CB0;
+    color: #f1f1f1; }
+    article footer div h2 {
+      font-size: 1em; }
+      article footer div h2 a {
+        text-decoration: none;
+        color: white;
+        border-bottom: dotted 0.1em white; }
   article section.landing {
     background-color: #261758;
     min-height: 100vh;

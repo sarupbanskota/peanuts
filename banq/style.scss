@@ -108,28 +108,15 @@ $light: #877CB0;
 				background-color: #ffffe7;
 			}
 			div.refused{
-				background-color: #ffaaaa;
+				background-color: #ffc9c9;
 			}
 			div.loader{
-				display: -webkit-box;
-				display: -moz-box;
-				display: -ms-flexbox;
-				display: -webkit-flex;
+				color: $light;
 				display: flex;
 				justify-content: center;
-				align-items: center;
-				h2{
-					background-color: $dark;
-					background-color: $dark;
-					border-radius: 0.2em;
-					font-size: 1.5em;
-					padding: 1em;
-					text-align: center;
-					color: $light;
-					text-decoration: none;
-					cursor: pointer;
-				}
-
+				cursor: pointer;
+				border: solid 0.1em white;
+				border-top: none;
 			}
 		}
 

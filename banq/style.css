@@ -72,25 +72,14 @@
     article section.table div.pending {
       background-color: #ffffe7; }
     article section.table div.refused {
-      background-color: #ffaaaa; }
+      background-color: #ffc9c9; }
     article section.table div.loader {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
+      color: #877CB0;
       display: flex;
       justify-content: center;
-      align-items: center; }
-      article section.table div.loader h2 {
-        background-color: #12073B;
-        background-color: #12073B;
-        border-radius: 0.2em;
-        font-size: 1.5em;
-        padding: 1em;
-        text-align: center;
-        color: #877CB0;
-        text-decoration: none;
-        cursor: pointer; }
+      cursor: pointer;
+      border: solid 0.1em white;
+      border-top: none; }
   article section.landing {
     background-color: #261758;
     min-height: 100vh;

@@ -7,7 +7,7 @@ $(document).ready(function(){
 	});
 	$("section.table > div.loader > h2").click(function(){
 		$(this).closest("section").next("section.more").show();
-		$(this).hide();
+		$(this).parent().hide();
 	});
 	$("header > h1").click(function(){
 		$(this).next(".dropdown-list").toggle();

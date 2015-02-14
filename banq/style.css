@@ -194,6 +194,9 @@
   nav, header {
     margin: 0 2em; }
 
+  section {
+    margin: auto 2em; }
+
   section.graph {
     display: -webkit-box;
     display: -moz-box;
@@ -211,6 +214,9 @@
 @media screen and (min-width: 40em) {
   nav, header {
     margin: 0 3em; }
+
+  section.form {
+    margin: auto 2em; }
 
   section.graph {
     display: -webkit-box;
@@ -257,6 +263,9 @@
 @media screen and (min-width: 70em) {
   nav, header {
     margin: 0 5em; }
+
+  section.form {
+    margin: auto 4em; }
 
   section.table div {
     margin: 0 5em; }

@@ -46,6 +46,44 @@
     background-color: #f1f1f1; }
     article section.graph .hidden {
       display: none; }
+  article section.form {
+    padding: 0.5em;
+    font-family: 'Quicksand', sans-serif; }
+    article section.form form {
+      padding: 1em; }
+      article section.form form label {
+        display: block; }
+      article section.form form select {
+        text-align: center;
+        margin: 0.5em auto;
+        border: none;
+        padding: 0.5em 2em;
+        font-size: 1.3em;
+        border-radius: 0.2em;
+        background-color: #877CB0;
+        color: white;
+        cursor: pointer; }
+        article section.form form select option {
+          background-color: #f1f1f1;
+          color: #261758;
+          font-size: 1em; }
+      article section.form form input[type=text] {
+        margin: 0.5em auto;
+        padding: 0.5em 2em; }
+      article section.form form input[type=button], article section.form form input[type=submit] {
+        margin: 0.25em auto;
+        border: none;
+        padding: 0.5em 2em;
+        font-size: 1em;
+        border-radius: 0.2em;
+        background-color: #877CB0;
+        color: white;
+        cursor: pointer; }
+      article section.form form input[type=submit] {
+        background-color: #261758;
+        font-size: 1.3em; }
+      article section.form form .hide {
+        display: none; }
   article section.table {
     padding: 0.5em;
     background-color: #f1f1f1; }

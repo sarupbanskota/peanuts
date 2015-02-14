@@ -69,6 +69,54 @@ $light: #877CB0;
 			}
 		}
 
+		section.form{
+			padding: 0.5em;
+			font-family: 'Quicksand', sans-serif;
+			form{
+				padding: 1em;
+				label{
+					display: block;
+				}
+				select{
+					text-align: center;
+					margin: 0.5em auto;
+					border: none;
+					padding: 0.5em 2em;
+					font-size: 1.3em;
+					border-radius: 0.2em;
+					background-color: $light;
+					color: white;
+					cursor: pointer;
+					option{
+						background-color: #f1f1f1;
+						color: $medium;
+						font-size: 1em;
+					}
+				}
+				input[type=text]{
+					margin: 0.5em auto;
+					padding: 0.5em 2em;
+				}
+				input[type=button], input[type=submit]{
+					margin: 0.25em auto;
+					border: none;
+					padding: 0.5em 2em;
+					font-size: 1em;
+					border-radius: 0.2em;
+					background-color: $light;
+					color: white;
+					cursor: pointer;
+				}
+				input[type=submit]{
+					background-color: $medium;
+					font-size: 1.3em;
+				}
+				.hide{
+					display: none;
+				}
+			}
+		}
+
 		section.table{
 			padding: 0.5em;
 			background-color: #f1f1f1;

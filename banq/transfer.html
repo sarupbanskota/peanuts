@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Banq Dashboard</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+
+	</head>
+	<body>
+		<article>
+			<nav>
+				<h1>BanQ</h1>
+			</nav>
+			<header>
+				<h1> 
+					<svg class="icon" viewBox="0 0 32 32">
+					  <use xlink:href="icons.svg#dropdown"></use>
+					</svg>
+					<span> NEFT Transfer </span>
+				</h1>
+				<div class="dropdown-list">
+					<h2> <a href="#">Linked BanQ Account </a></h2>
+					<h2> <a href="#"> Other BanQ Account  </a></h2>
+					<h2> <a href="#">Mobile (IMPS) </a></h2>
+					<h2> <a href="#">Mobile (cardless widthdrawal) </a></h2>
+				</div>
+			</header>
+
+			<section class="form">
+				<form>
+					<label> Source Account </label>
+					<select>
+						<option> BANQ92 - Kolkata </option>
+						<option> BANQ10 - Mumbai </option>
+						<option> BANQ17 - Pune  </option> 
+					</select> 
+
+					<label> Payee Account </label>
+					<select>
+						<option> BANAS767292</option>
+						<option> SARU0922828 </option>
+						<option> PADM8278929 </option> 
+					</select>
+
+					<label> Amount </label>
+					<input type="text" placeholder="Value in USD"> 
+
+					<label> Payment Date </label>
+
+					<input type="button" value="Now">
+					<input type="button" value="Tomorrow"> 
+					<input type="button" value="Pick">
+
+					<select class="hide">
+						<option> Month </option>
+						<option> January </option>
+						<option> February </option> 
+						<option> March </option>
+						<option> April </option>
+					</select>
+
+					<select id="day" class="hide">
+						<option> Day </option>
+					</select>
+
+					<br>
+
+					<input type="submit" value="TRANSFER">
+
+				</form>
+			</section>
+
+
+			<header>
+				<h1> 
+					<svg class="icon" viewBox="0 0 32 32">
+					  <use xlink:href="icons.svg#dropdown"></use>
+					</svg>
+					<span> Transfer Status </span>
+				</h1>
+				<div class="dropdown-list">
+					<h2> <a href="february-overview.html">February Overview </a></h2>
+					<h2> <a href="2015-overview.html"> 2015 Overview  </a></h2>
+					<h2> <a href="2014-overview.html">2014 Overview   </a></h2>
+					<h2> <a href="predictor.html">Cashflow Predictor </a></h2>
+				</div>
+			</header>
+
+			<section class="table">
+
+				<div class="pending">
+					<p> <strong> USD 400 </strong> </p>
+					<p> <strong> UC Berkeley </strong> </p>
+					<p> BQU80DEP2952 </p>
+					<p> 8 February 2015 </p>
+					<p class="optional"> USD 3 </p> 
+					<p class="optional"> 465768 </p>
+					<p><strong> <span class="tag"> Pending </span></strong></p>
+				</div>
+
+				<div class="pending">
+					<p> <strong> USD 900 </strong> </p>
+					<p> <strong> Apple Houston </strong> </p>
+					<p> BQU80DEP2952 </p>
+					<p> 7 February 2015 </p>
+					<p class="optional"> USD 3 </p> 
+					<p class="optional"> 465768 </p>
+					<p><strong> <span class="tag"> Pending </span></strong></p>
+				</div>
+
+				<div class="completed">
+					<p> <strong> USD 1000 </strong> </p>
+					<p> <strong> British Airways MAA </strong> </p>
+					<p> BQU80DEP2951 </p>
+					<p> 6 February 2015 </p>
+					<p class="optional"> USD 3 </p> 
+					<p class="optional"> 465768 </p>
+					<p> <strong> <span class="tag"> Completed </span></strong></p>
+				</div>
+
+				<div class="refused">
+					<p> <strong> USD 1000 </strong> </p>
+					<p> <strong> British Airways MAA </strong> </p>
+					<p> BQU80DEP2950 </p>
+					<p> 6 February 2015 </p>
+					<p class="optional"> USD 3 </p> 
+					<p class="optional"> 465768 </p>
+					<p> <strong> <span class="tag"> Refused </span></strong></p>
+				</div>
+
+			</section>
+			<a name="activity">
+			<header>
+				<h1> 
+					<svg class="icon" viewBox="0 0 32 32">
+					  <use xlink:href="icons.svg#dropdown"></use>
+					</svg>
+					<span> Popular Activity </span>
+				</h1>
+				<div class="dropdown-list">
+					<h2> <a href="february-overview.html">February Overview </a></h2>
+					<h2> <a href="2015-overview.html"> 2015 Overview  </a></h2>
+					<h2> <a href="2014-overview.html">2014 Overview   </a></h2>
+					<h2> <a href="predictor.html">Cashflow Predictor </a></h2>
+				</div>
+			</header>
+
+			<section class="activity">
+				<div>
+					<a class="recommended" href="transfer_money.html"> <strong>TRANSFER MONEY </strong></a>
+					<a href="predictor.html"> PREDICT CASHFLOW </a>
+					<a href="predictor.html"> RECURRING DEPOSITS </a>
+					<a href="predictor.html"> SERVICE REQUESTS </a>
+				</div>
+			</section>
+
+			<footer>
+				<div>
+					<h2> <a href="http://twitter.com/SarupBanskota">@SarupBanskota</a> design.</h2>
+				</div>
+			</footer>
+
+		</article>
+
+	</body>
+</html>

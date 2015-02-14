@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	$(".stick").click(function(){
-		$(".stick").css("background-color", "#877CB0")
+		$(".hide").hide();
+		$(".stick").show();
+		$(".stick").css("background-color", "#877CB0");
 		$(this).css("background-color", "#12073B");
 	});
 	$(".pick").click(function(){

@@ -47,13 +47,13 @@
     article section.graph .hidden {
       display: none; }
   article section.form {
-    padding: 0.5em;
-    font-family: 'Quicksand', sans-serif; }
+    padding: 0.5em; }
     article section.form form {
       padding: 1em; }
       article section.form form label {
         display: block; }
       article section.form form select {
+        font-family: 'Quicksand', sans-serif;
         text-align: center;
         margin: 0.5em auto;
         border: none;
@@ -67,6 +67,8 @@
           background-color: #f1f1f1;
           color: #261758;
           font-size: 1em; }
+      article section.form form input {
+        font-family: 'Quicksand', sans-serif; }
       article section.form form input[type=text] {
         margin: 0.5em auto;
         padding: 0.5em 2em; }

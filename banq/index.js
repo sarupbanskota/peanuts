@@ -1,4 +1,12 @@
 $(document).ready(function(){
+	$(".stick").click(function(){
+		$(".stick").css("background-color", "#877CB0")
+		$(this).css("background-color", "#12073B");
+	});
+	$(".pick").click(function(){
+		$(this).hide();
+		$(".hide").show();
+	});
 	$(".dropdown-list").hide();
 	$(".more").hide();
 	$("section.landing > div > h2").click(function(){

@@ -71,13 +71,13 @@ $light: #877CB0;
 
 		section.form{
 			padding: 0.5em;
-			font-family: 'Quicksand', sans-serif;
 			form{
 				padding: 1em;
 				label{
 					display: block;
 				}
 				select{
+					font-family: 'Quicksand', sans-serif;
 					text-align: center;
 					margin: 0.5em auto;
 					border: none;
@@ -92,6 +92,9 @@ $light: #877CB0;
 						color: $medium;
 						font-size: 1em;
 					}
+				}
+				input{
+					font-family: 'Quicksand', sans-serif;
 				}
 				input[type=text]{
 					margin: 0.5em auto;

@@ -19,10 +19,38 @@ $dark: #0d430d;
 			.icon{
 				padding: 0.5em;
 				border-radius: 50%;
-				border: dotted 0.1em #469b79;
+				border: dotted 0.1em $medium;
 				width: 1.5em;
-				fill: #fae15a;
-				background-color: #008a00;
+				fill: $light;
+				background-color: $medium;
+			}
+		}
+	}
+
+	nav{
+		div{
+			padding: 1em;
+			h3{
+				display: none;
+				font-size: 0.8em;
+			}
+			h3.picked{
+				display: block;
+				.icon{
+					fill: $medium;
+					width: 0.8em;
+				}
+			}
+		}
+		div.dropdown-adventures{
+			background-color: $dark;
+			h3{
+				font-size: 1.2em;
+				color: $light;
+				.icon{
+					fill: $light;
+					width: 1.2em;
+				}
 			}
 		}
 	}
@@ -35,7 +63,7 @@ $dark: #0d430d;
 		overflow: hidden;
 		a.lightbox-close{
 			.icon{
-				fill: #469b79;
+				fill: $light;
 			}
 		}
 	}
@@ -97,6 +125,7 @@ $dark: #0d430d;
 				input[type=text]{
 					margin: 0.25em 0 2em 0;
 					padding: 1em;
+					width: 12em;
 					border: solid 0.1em $medium;
 				}
 				input[type=button], input[type=submit]{

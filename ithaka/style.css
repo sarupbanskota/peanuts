@@ -12,10 +12,29 @@
     header a .icon {
       padding: 0.5em;
       border-radius: 50%;
-      border: dotted 0.1em #469b79;
+      border: dotted 0.1em #008a00;
       width: 1.5em;
       fill: #fae15a;
       background-color: #008a00; }
+
+  nav div {
+    padding: 1em; }
+    nav div h3 {
+      display: none;
+      font-size: 0.8em; }
+    nav div h3.picked {
+      display: block; }
+      nav div h3.picked .icon {
+        fill: #008a00;
+        width: 0.8em; }
+  nav div.dropdown-adventures {
+    background-color: #0d430d; }
+    nav div.dropdown-adventures h3 {
+      font-size: 1.2em;
+      color: #fae15a; }
+      nav div.dropdown-adventures h3 .icon {
+        fill: #fae15a;
+        width: 1.2em; }
 
   .lightbox-target {
     position: fixed;
@@ -23,7 +42,7 @@
     height: 100vh;
     overflow: hidden; }
     .lightbox-target a.lightbox-close .icon {
-      fill: #469b79; }
+      fill: #fae15a; }
 
   .lightbox-target:target {
     top: 0;
@@ -73,6 +92,7 @@
         article section.landing form input[type=text] {
           margin: 0.25em 0 2em 0;
           padding: 1em;
+          width: 12em;
           border: solid 0.1em #008a00; }
         article section.landing form input[type=button], article section.landing form input[type=submit] {
           background-color: #008a00;

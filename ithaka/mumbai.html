@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> ithaka </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+	</head>
+	<body>
+		<header>
+			<a class="lightbox" href="#lightbox">
+				<svg class="icon" viewBox="0 0 32 32" >
+				  <use xlink:href="icons.svg#menu"></use>
+				</svg>
+			</a>
+		</header>
+
+		<nav>
+			<div class="dropdown-places"> 
+				<h3 class="picked"> 
+					<svg class="icon" viewBox="0 0 32 32" >
+					  <use xlink:href="icons.svg#dropdown"></use>
+					</svg>
+					Mumbai 
+					<span> Adventures </span>
+				</h3>
+				<h3> History</h3>
+				<h3> Sightseeing </h3>
+				<h3> Culture </h3>
+				<h3> Nightlife </h3>
+				<h3> Inspire Me </h3>
+			</div>
+
+			<div class="dropdown-adventures"> 
+				<h3 class="picked"> 
+					<svg class="icon" viewBox="0 0 32 32" >
+					  <use xlink:href="icons.svg#dropdown"></use>
+					</svg>
+					<span> Scuba Diving </span>
+				</h3>
+				<h3> Jumps </h3>
+				<h3> Hiking </h3>
+				<h3> Watersports </h3>
+				<h3> On Wheels </h3>
+			</div>
+
+		</nav>
+
+		<article>
+			<section class="landing">
+				<h1>
+					<svg class="icon" viewBox="0 0 32 32" >
+					  <use xlink:href="icons.svg#globe"></use>
+					</svg>
+					ithaka
+				</h1>
+				<h2>
+					<a href="#"> Mumbai </a> 
+					<a href="#"> Bangkok </a> 
+					<a href="#"> Paris </a> 
+					<a href="#elsewhere"> Elsewhere? </a>
+				</h2>
+			</section>
+
+			<a name="elsewhere">
+			<section class="landing">
+				<form>
+					<label> Where you goin? </label>
+					<input type="text" placeholder="Just start typing.."> 
+
+
+					<label> (Optional) You know when? </label>
+					<input type="button" class="pick" value="Now">
+					<input type="button" class="pick" value="Tomorrow">
+					<input type="button" class="pick" value="Pick">
+					<input type="button" class="pick" value="IDK">
+
+					<input type="submit" value="Search!">
+
+				</form>
+
+			</section>
+		</article>
+
+		<div class="lightbox-target" id="lightbox">
+			<a class="lightbox-close" href="#">
+				<svg class="icon" viewBox="0 0 32 32" >
+				  <use xlink:href="icons.svg#close"></use>
+				</svg>
+			</a>
+			<ul>
+				<li><a href="/"> Home </a></li>
+				<li><a href="wishlist.html"> Wishlist </a></li>
+				<li><a href="bookings.html"> Bookings </a></li>
+				<br>
+				<li class="small"><a href="about.html"> About Us </a></li>
+				<li class="small"><a href="partner.html"> Partner With Us </a></li>
+				<li class="small"><a href="partner.html"> Contact </a></li>
+				<li class="small"><a href="partner.html"> Jobs </a></li>
+			</ul>
+		</div>
+
+	</body>
+</html>

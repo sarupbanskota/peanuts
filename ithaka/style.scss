@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Cutive);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
 *{
 	padding: 0; margin: 0; 
@@ -27,6 +28,52 @@ $dark: #0d430d;
 		}
 	}
 
+	article{
+		section.filters{
+			background-color: #f1f1f1;
+			padding: 1em 0;
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+			justify-content: space-around;
+			a{
+				font-family: 'Amatic SC', cursive; font-size: 2em;
+				color: $dark;
+				text-decoration: none;
+			}
+		}
+		section.products{
+			padding: 0 1em;
+
+			div{
+					margin-top: 1em;
+					background-color: #f1f1f1;
+					padding: 1em;
+					border: solid 0.1em white;
+					margin-bottom: 0.5em;
+				ul.essentials, ul.more{
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: space-between;
+					list-style-type: none;
+					li{
+						display: inline;
+						font-family: 'Amatic SC', cursive; font-size: 2em;
+					}
+				}
+				ul.more{
+					font-size: 0.8em;
+					justify-content: flex-end;
+					li{
+						margin: 1em 0 0 1em;
+					}
+				}
+			}
+
+		}
+	}
+
+
 	nav{
 		div{
 			padding: 1em;
@@ -41,7 +88,6 @@ $dark: #0d430d;
 				margin-left: 0;
 				align-items: center;
 				.icon{
-					fill: $medium;
 					width: 0.8em;
 					margin-right: 0.4em;
 				}

@@ -35,10 +35,9 @@ $dark: #0d430d;
 			flex-flow: row nowrap;
 			align-items: center;
 			justify-content: space-around;
-			a{
-				font-family: 'Amatic SC', cursive; font-size: 2em;
-				color: $dark;
-				text-decoration: none;
+			p.price{
+				border-bottom: solid 0.5em $medium;
+				font-size: 1.5em;
 			}
 		}
 		section.products{

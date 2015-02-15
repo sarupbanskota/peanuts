@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Cutive);
+
+*{
+	padding: 0; margin: 0; 
+	font-family: 'Cutive', serif;
+}
+
+$medium: #008a00;
+$light: #fae15a;
+$dark: #0d430d;
+
+@media screen and (min-width: 0em){
+
+	header{
+		position: fixed;
+		right: 1em;
+		top: 1em;
+		a{
+			.icon{
+				padding: 0.5em;
+				border-radius: 50%;
+				border: dotted 0.1em #469b79;
+				width: 1.5em;
+				fill: #fae15a;
+				background-color: #008a00;
+			}
+		}
+	}
+
+
+	.lightbox-target{
+		position: fixed;
+		top: -100%;
+		height: 100vh;
+		overflow: hidden;
+		a.lightbox-close{
+			.icon{
+				fill: #469b79;
+			}
+		}
+	}
+
+	.lightbox-target:target{
+		top: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 100%;
+		opacity: 0.95;
+		color: white;
+		text-align: right;
+		background-color: black;
+		a.lightbox-close{
+			display: inline-block;
+			padding-top: 1em;
+			padding-right: 1em;
+			width: 2.5em;
+		}
+		ul{
+			text-align: center;
+			li{
+				padding: 1em;
+				list-style-type: none;
+				a{
+					text-decoration: none;
+					font-size: 1em;
+					color: white;
+				}
+			}
+			li.small{
+				padding: 0.25em;
+				a{ color: gray; }
+			}
+		}
+	}
+
+	article{
+		background-color: $light;
+		section{
+			padding: 0 3em;
+		}
+
+		section.landing{
+			height: 100vh;
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			form{
+				width: 15em;
+				label{
+					color: $medium;
+					display: block;
+				}
+				input{
+					border: none;
+					border-radius: 0.2em;
+				}
+				input[type=text]{
+					margin: 0.25em 0 2em 0;
+					padding: 1em;
+					border: solid 0.1em $medium;
+				}
+				input[type=button], input[type=submit]{
+					background-color: $medium;
+					color: $light;
+					font-size: 1em;
+					padding: 0.5em 1em;
+					margin: 0.25em 0.25 0 0;
+					cursor: pointer;
+				}
+
+				input[type="submit"]{
+					display: block;
+					margin-top: 1em;
+					padding: 0.75em 1.25em;
+					background-color: $dark;
+				}
+			}
+			h1{
+				display: flex;
+				flex-flow: column nowrap;
+				color: $medium;
+				font-size: 3em;
+				line-height: 1.2;
+			}
+			h1{
+				.icon{
+					fill: white;
+					width: 3em;
+				}
+			}
+			h2{
+				display: flex;
+				flex-flow: row wrap;
+				align-items: center;
+				width: 12em;
+				justify-items: space-between;
+				a{
+					font-size: 1em;
+					background-color: $medium;
+					color: white;
+					margin: 0.15em;
+					text-decoration: none;
+				}
+			}
+			
+		}
+		
+	}
+
+}

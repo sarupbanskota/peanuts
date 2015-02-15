@@ -33,12 +33,17 @@ $dark: #0d430d;
 			h3{
 				display: none;
 				font-size: 0.8em;
+				cursor: pointer;
+				margin: 1.2em 0 0 1.2em;
 			}
 			h3.picked{
-				display: block;
+				display: flex;
+				margin-left: 0;
+				align-items: center;
 				.icon{
 					fill: $medium;
 					width: 0.8em;
+					margin-right: 0.4em;
 				}
 			}
 		}

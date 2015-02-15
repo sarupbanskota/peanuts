@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Cutive);
-@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 * {
   padding: 0;
   margin: 0;
@@ -31,11 +30,10 @@
       color: #0d430d;
       text-decoration: none; }
   article section.products {
-    padding: 0 1em; }
+    padding-top: 1em; }
     article section.products div {
-      margin-top: 1em;
-      background-color: #f1f1f1;
       padding: 1em;
+      background-color: #f1f1f1;
       border: solid 0.1em white;
       margin-bottom: 0.5em; }
       article section.products div ul.essentials, article section.products div ul.more {
@@ -45,13 +43,19 @@
         list-style-type: none; }
         article section.products div ul.essentials li, article section.products div ul.more li {
           display: inline;
-          font-family: 'Amatic SC', cursive;
-          font-size: 2em; }
+          font-size: 1.5em; }
+        article section.products div ul.essentials li.price, article section.products div ul.more li.price {
+          color: #008a00; }
       article section.products div ul.more {
         font-size: 0.8em;
         justify-content: flex-end; }
         article section.products div ul.more li {
-          margin: 1em 0 0 1em; }
+          background-color: white;
+          padding: 0.25em 0.75em;
+          margin: 1em 0 0 1em;
+          font-size: 1em;
+          border-radius: 0.2em;
+          border: solid 0.1em #fae15a; }
 
   nav div {
     padding: 1em; }

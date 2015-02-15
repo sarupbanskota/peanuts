@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Cutive);
-@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
 *{
 	padding: 0; margin: 0; 
@@ -43,12 +42,10 @@ $dark: #0d430d;
 			}
 		}
 		section.products{
-			padding: 0 1em;
-
+			padding-top: 1em;
 			div{
-					margin-top: 1em;
-					background-color: #f1f1f1;
 					padding: 1em;
+					background-color: #f1f1f1;
 					border: solid 0.1em white;
 					margin-bottom: 0.5em;
 				ul.essentials, ul.more{
@@ -58,14 +55,22 @@ $dark: #0d430d;
 					list-style-type: none;
 					li{
 						display: inline;
-						font-family: 'Amatic SC', cursive; font-size: 2em;
+						font-size: 1.5em;
+					}
+					li.price{
+						color: $medium;
 					}
 				}
 				ul.more{
 					font-size: 0.8em;
 					justify-content: flex-end;
 					li{
+						background-color: white;
+						padding: 0.25em 0.75em;
 						margin: 1em 0 0 1em;
+						font-size: 1em;
+						border-radius: 0.2em;
+						border: solid 0.1em $light;
 					}
 				}
 			}

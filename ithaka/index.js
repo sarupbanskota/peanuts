@@ -1,4 +1,18 @@
 $(document).ready(function(){
+	$(".datepicker").hide();
+	$(".pick").click(function(){
+		$(".hides").show();
+		$(".datepicker").hide();
+		$(".pick").removeClass("selected");
+		$(this).addClass("selected");
+	});
+
+	$(".hides").click(function(){
+		$(this).toggle();
+		$(".pick").removeClass("selected");
+		$(".datepicker").show();
+	});
+
 	$(".picked").click(function(){
 		$(this).nextAll("h3").toggle();
 	});

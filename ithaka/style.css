@@ -18,6 +18,7 @@
       background-color: #008a00; }
 
   article section.filters {
+    cursor: pointer;
     background-color: #f1f1f1;
     padding: 1em 0;
     display: flex;
@@ -51,6 +52,9 @@
         opacity: 1; }
   article section.products {
     padding-top: 1em; }
+    article section.products a {
+      text-decoration: none;
+      color: #262525; }
     article section.products div {
       padding: 1em;
       background-color: #f1f1f1;
@@ -76,6 +80,8 @@
           font-size: 1em;
           border-radius: 0.2em;
           border: solid 0.1em #fae15a; }
+    article section.products a:hover div {
+      background-color: white; }
   article section.adventure {
     padding: 0.5em; }
     article section.adventure ul.calendar {
@@ -96,10 +102,14 @@
           color: #0d430d;
           border: solid 0.1em #0d430d;
           border-radius: 0.5em;
-          cursor: pointer; }
+          cursor: pointer;
+          font-size: 1.2em; }
         article section.adventure ul.calendar li span.book-button:hover {
-          background-color: #0d430d;
+          background-color: #008a00;
           color: #fae15a; }
+    article section.adventure p {
+      padding: 1em 0;
+      line-height: 1.7; }
 
   nav div {
     padding: 1em; }
@@ -193,6 +203,17 @@
           display: block;
           margin-top: 1em;
           padding: 0.75em 1.25em;
+          background-color: #0d430d; }
+        article section.landing form .datepicker {
+          padding: 1em 0; }
+          article section.landing form .datepicker label {
+            display: inline; }
+          article section.landing form .datepicker select option {
+            background-color: #0d430d;
+            color: #fae15a;
+            border: none;
+            padding: 0.5em; }
+        article section.landing form input.selected {
           background-color: #0d430d; }
       article section.landing h1 {
         display: flex;

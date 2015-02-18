@@ -28,7 +28,9 @@ $dark: #0d430d;
 	}
 
 	article{
+
 		section.filters{
+			cursor: pointer;
 			background-color: #f1f1f1;
 			padding: 1em 0;
 			display: flex;
@@ -69,13 +71,18 @@ $dark: #0d430d;
 				}
 			}
 		}
+
 		section.products{
 			padding-top: 1em;
+			a{
+				text-decoration: none;
+				color: #262525;
+			}
 			div{
-					padding: 1em;
-					background-color: #f1f1f1;
-					border: solid 0.1em white;
-					margin-bottom: 0.5em;
+				padding: 1em;
+				background-color: #f1f1f1;
+				border: solid 0.1em white;
+				margin-bottom: 0.5em;
 				ul.essentials, ul.more{
 					display: flex;
 					flex-flow: row wrap;
@@ -102,6 +109,11 @@ $dark: #0d430d;
 					}
 				}
 			}
+			a:hover{
+				div{
+					background-color: white;
+				}
+			}
 		}
 		section.adventure{
 			padding: 0.5em;
@@ -126,12 +138,17 @@ $dark: #0d430d;
 						border: solid 0.1em $dark;
 						border-radius: 0.5em;
 						cursor: pointer;
+						font-size: 1.2em;
 					}
 					span.book-button:hover{
-						background-color: $dark;
+						background-color: $medium;
 						color: $light;
 					}
 				}
+			}
+			p{
+				padding: 1em 0;
+				line-height: 1.7;
 			}
 		}
 	}
@@ -255,6 +272,22 @@ $dark: #0d430d;
 					display: block;
 					margin-top: 1em;
 					padding: 0.75em 1.25em;
+					background-color: $dark;
+				}
+
+				.datepicker{
+					padding: 1em 0;
+					label { display: inline;}
+					select{
+						option{
+							background-color: $dark;
+							color: $light;
+							border: none;
+							padding: 0.5em;
+						}
+					}
+				}
+				input.selected{
 					background-color: $dark;
 				}
 			}

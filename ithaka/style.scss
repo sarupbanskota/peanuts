@@ -242,12 +242,12 @@ $dark: #0d430d;
 					width: 12em;
 					border: solid 0.1em $medium;
 				}
-				input[type=button], input[type=submit]{
+				input[type="button"], input[type="submit"]{
 					background-color: $medium;
 					color: $light;
 					font-size: 1em;
 					padding: 0.5em 1em;
-					margin: 0.25em 0.25 0 0;
+					margin: 0.25em 0.125em 0 0;
 					cursor: pointer;
 				}
 

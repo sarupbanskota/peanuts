@@ -182,12 +182,12 @@
           padding: 1em;
           width: 12em;
           border: solid 0.1em #008a00; }
-        article section.landing form input[type=button], article section.landing form input[type=submit] {
+        article section.landing form input[type="button"], article section.landing form input[type="submit"] {
           background-color: #008a00;
           color: #fae15a;
           font-size: 1em;
           padding: 0.5em 1em;
-          margin: 0.25em 0.25 0 0;
+          margin: 0.25em 0.125em 0 0;
           cursor: pointer; }
         article section.landing form input[type="submit"] {
           display: block;

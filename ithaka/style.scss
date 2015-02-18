@@ -40,6 +40,35 @@ $dark: #0d430d;
 				font-size: 1.5em;
 			}
 		}
+
+		section.slides{
+			background-color: black;
+			padding: 0;
+			img.cover{
+				width: 100%;
+			}
+			div.thumbs{
+				padding: 0.5em 1em;
+				display: flex;
+				flex-flow: row wrap;
+				align-items: center;
+				justify-content: space-between;
+				.icon{
+					width: 2.5em;
+					fill: $light;
+					cursor: pointer;
+				}
+				img{
+					width: 4em;
+					height: 4em;
+					opacity: 0.6;
+					cursor: pointer;
+				}
+				img:hover{
+					opacity: 1;
+				}
+			}
+		}
 		section.products{
 			padding-top: 1em;
 			div{
@@ -73,7 +102,37 @@ $dark: #0d430d;
 					}
 				}
 			}
-
+		}
+		section.adventure{
+			padding: 0.5em;
+			ul.calendar{
+				list-style-type: none;
+				li{
+					display: flex;
+					flex-flow: row nowrap;
+					justify-content: space-around;
+					align-items: center;
+					padding-top: 1em;
+					span{
+						text-align: center;
+					}
+					span.date{
+						color: gray;
+					}
+					span.book-button{
+						background-color: $light;
+						padding: 0.5em;
+						color: $dark;
+						border: solid 0.1em $dark;
+						border-radius: 0.5em;
+						cursor: pointer;
+					}
+					span.book-button:hover{
+						background-color: $dark;
+						color: $light;
+					}
+				}
+			}
 		}
 	}
 

@@ -27,6 +27,28 @@
     article section.filters p.price {
       border-bottom: solid 0.5em #008a00;
       font-size: 1.5em; }
+  article section.slides {
+    background-color: black;
+    padding: 0; }
+    article section.slides img.cover {
+      width: 100%; }
+    article section.slides div.thumbs {
+      padding: 0.5em 1em;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: space-between; }
+      article section.slides div.thumbs .icon {
+        width: 2.5em;
+        fill: #fae15a;
+        cursor: pointer; }
+      article section.slides div.thumbs img {
+        width: 4em;
+        height: 4em;
+        opacity: 0.6;
+        cursor: pointer; }
+      article section.slides div.thumbs img:hover {
+        opacity: 1; }
   article section.products {
     padding-top: 1em; }
     article section.products div {
@@ -54,6 +76,30 @@
           font-size: 1em;
           border-radius: 0.2em;
           border: solid 0.1em #fae15a; }
+  article section.adventure {
+    padding: 0.5em; }
+    article section.adventure ul.calendar {
+      list-style-type: none; }
+      article section.adventure ul.calendar li {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 1em; }
+        article section.adventure ul.calendar li span {
+          text-align: center; }
+        article section.adventure ul.calendar li span.date {
+          color: gray; }
+        article section.adventure ul.calendar li span.book-button {
+          background-color: #fae15a;
+          padding: 0.5em;
+          color: #0d430d;
+          border: solid 0.1em #0d430d;
+          border-radius: 0.5em;
+          cursor: pointer; }
+        article section.adventure ul.calendar li span.book-button:hover {
+          background-color: #0d430d;
+          color: #fae15a; }
 
   nav div {
     padding: 1em; }
